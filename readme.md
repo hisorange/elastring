@@ -66,6 +66,8 @@ console.log(`${str.pathCase.prefix('../').suffix('.js')} at!`); // ../orm/driver
 
 **Immutable**: After initialization the strings are immutable, so every call will create a new instance with the expected format, this is useful behavior when a string need in multiple format but be aware this is a computation heavy solution, so it's not advised to be used a in a high performance demanding environments.
 
+**Versioning**: SemVer! But be aware if there is a behavior change then it will break compatibility so the major release will be changed, currently running ~110 test to ensure consistency but there are always edge cases, so each edge case will be fixed with a major release to avoid ruining someones setup on that case.
+
 ### Links
 
 ---

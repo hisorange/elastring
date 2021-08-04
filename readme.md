@@ -1,13 +1,13 @@
 ## ![ElaString Logo](https://user-images.githubusercontent.com/3441017/128170185-ecc7693b-1fa8-4d10-b24f-59f828873f5b.png)
 
-## ElaString - Fluent Chainable String Mutation
+## ElaString - Fluent Immutable String Transformation
 
 [![Version](https://badge.fury.io/gh/hisorange%2Felastring.svg)](https://badge.fury.io/gh/hisorange%2Felastring)
 [![Build](https://github.com/hisorange/elastring/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/hisorange/elastring/actions/workflows/ci.yml)
 [![Coverage Status](https://coveralls.io/repos/github/hisorange/elastring/badge.svg)](https://coveralls.io/github/hisorange/elastring)
 [![GitHub license](https://img.shields.io/github/license/hisorange/elastring)](https://github.com/hisorange/elastring/blob/main/LICENSE)
 
-Opionated fluent string mutations; You can use this package when the input is coming from a user or any other unregulated source, and you want to use the string in a normalized and formated way.
+Opionated fluent string transformations; You can use this package when the input is coming from a user or any other unregulated source, and you want to use the string in a normalized and formated way.
 
 ### Getting Started
 
@@ -83,8 +83,9 @@ console.log(`${str.pathCase.prefix('../').suffix('.js')} at!`); // ../orm/driver
 
 ---
 
-#####
+##### 1.1.x
 
 - Added the reverse transformation
+- Fixed the terrible readme mesh :v
 
 ##### 1.0.0 - Initial Release

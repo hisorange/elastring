@@ -75,7 +75,7 @@ console.log(`${str.pathCase.prefix('../').suffix('.js')} at!`); // ../orm/driver
 
 - [GitHub](https://github.com/hisorange/elastring)
 - [NPM](https://www.npmjs.com/package/@hisorange/elastring)
-- [GPM](https://github.com/hisorange/elastring/packages/907960)
+- [GPM](https://github.com/hisorange/elastring/packages/926718)
 
 ### Changelog
 

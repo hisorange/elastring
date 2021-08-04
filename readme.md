@@ -1,3 +1,5 @@
+## ![ElaString Logo](https://user-images.githubusercontent.com/3441017/128170185-ecc7693b-1fa8-4d10-b24f-59f828873f5b.png)
+
 ## ElaString - Fluent Chainable String Mutation
 
 [![Version](https://badge.fury.io/gh/hisorange%2Felastring.svg)](https://badge.fury.io/gh/hisorange%2Felastring)

@@ -258,4 +258,8 @@ describe('Elastring', () => {
       expect(new Elastring(input).pathCase.toString()).toBe(output);
     },
   );
+
+  it('should reverse the string', () => {
+    expect(new Elastring('rev').reverse.toString()).toBe('ver');
+  });
 });

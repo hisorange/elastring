@@ -70,6 +70,11 @@ export interface IElastring {
   readonly pathCase: IElastring;
 
   /**
+   * rev -> ver
+   */
+  readonly reverse: IElastring;
+
+  /**
    * Concatanate with the given string.
    *
    * @param subject

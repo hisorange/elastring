@@ -55,6 +55,7 @@ console.log(`${str.pathCase.prefix('../').suffix('.js')} at!`); // ../orm/driver
 | **prefix()**         | string.prefix('ela')    | elastring    |     x      |
 | **suffix()**         | ela.suffix('string.js') | elastring.js |     x      |
 | **stripExtension()** | elastring.js            | elastring    |     x      |
+| **reverse**          | elastring               | gnirtsale    |     x      |
 
 ### Technicalities
 
@@ -80,4 +81,8 @@ console.log(`${str.pathCase.prefix('../').suffix('.js')} at!`); // ../orm/driver
 
 ---
 
-### 1.0.0 - Initial Release
+#####
+
+- Added the reverse transformation
+
+##### 1.0.0 - Initial Release

@@ -74,6 +74,10 @@ export class Elastring implements IElastring {
     return new Elastring(removeSpaces(this.subject));
   }
 
+  get reverse(): IElastring {
+    return new Elastring(this.subject.split('').reverse().join(''));
+  }
+
   prefix(prefix: string | IElastring): IElastring {
     if (typeof prefix === 'string') {
       prefix = new Elastring(prefix);

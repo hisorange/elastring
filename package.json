@@ -1,0 +1,60 @@
+{
+  "name": "@hisorange/elastring",
+  "version": "1.0.0",
+  "description": "Fluent immutable string transformations",
+  "keywords": [
+    "fluent",
+    "string",
+    "immutable",
+    "case-change",
+    "typescript"
+  ],
+  "main": "./build/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hisorange/elastring.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hisorange/elastring/issues"
+  },
+  "author": {
+    "name": "Varga Zsolt",
+    "email": "hello@hisorange.me",
+    "url": "https://hisorange.me"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/hisorange/elastring",
+  "scripts": {
+    "test": "jest --collectCoverage=0",
+    "test:ci": "jest",
+    "pretest:ci": "eslint .",
+    "lint": "eslint --fix .",
+    "build": "rimraf build && tsc -p tsconfig.dev.json",
+    "build:watch": "rimraf build && tsc -p tsconfig.dev.json --watch",
+    "build:prod": "rimraf build && tsc -p tsconfig.prod.json"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.0",
+    "@types/node": "^15.0.2",
+    "@typescript-eslint/eslint-plugin": "^4.28.4",
+    "@typescript-eslint/parser": "^4.28.4",
+    "eslint": "^7.31.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "jest": "^27.0.3",
+    "prettier": "^2.3.2",
+    "ts-jest": "^27.0.2",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "inflection": "^1.13.1",
+    "lodash.camelcase": "^4.3.0",
+    "lodash.kebabcase": "^4.1.1",
+    "lodash.snakecase": "^4.1.1",
+    "lodash.upperfirst": "^4.3.1",
+    "strman.removespaces": "^2.0.0"
+  }
+}
